@@ -12,7 +12,8 @@ const server = app.listen(3001, () => {
 
 
 app.get('/api/users/:apikey/:type', async (req, res) => {
-  let { apikey, type } = req.params; // 위의 get 메서드로 :apikey/:type에 받아온 값을 각각 변수 apikey , year에 할당 ex -> 주소창에 입력한 값이 localhost:3001/api/sales/aaaa/seoul 이면 apikey에는 aaaa를 type에는 seoul을 할당 
+  let { apikey, type } = req.params; // 위의 get 메서드로 :apikey/:type에 받아온 값을 각각 변수 apikey , year에 할당 
+  // ex -> 주소창에 입력한 값이 localhost:3001/api/sales/aaaa/seoul 이면 apikey에는 aaaa를 type에는 seoul을 할당 
 
   if (!uuidAPIKey.isAPIKey(apikey) || !uuidAPIKey.check(apikey, key.uuid)) { // apikey 형식에 맞는지, apikey값과 일치하는지 확인
     res.send('apikey is not valid.');
