@@ -1,7 +1,7 @@
 import requests
 res = requests.get("http://naver.com") # 작성한 url의 html 코드 가져옴
 res.raise_for_status() # 오류뜨면 실행 종료
-# print("응답코드 :", res.status_code) # 200이면 정상
+# print("응답코드 :", res.status_code) # 200(접근완료)가 아니면 오류발생시킴
 
 
 
