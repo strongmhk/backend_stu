@@ -2,7 +2,7 @@ public class StringApp {
 
 	public static void main(String[] args) {
 		System.out.println("Hello World!"); // String
-	//  System.out.println('Hello World!');  작은 따옴표는 Character(한글자)
+	//  System.out.println('Hello World!');  작은 따옴표는 Character(한글자)의미
 		System.out.println("H"); // String(한글자여도 큰따옴표로 감싸면 문자열로 판단)
 		
 		System.out.println("Hello " 
