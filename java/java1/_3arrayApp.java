@@ -1,5 +1,5 @@
 
-public class AuthApp {      //  로그인 시스템
+public class _3arrayApp {      //  로그인 시스템
 
 	public static void main(String[] args) {
 		String[][] users = {
