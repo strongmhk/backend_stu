@@ -1,4 +1,4 @@
-public class Casting{
+public class _2Casting{
 	public static void main(String[] args) {
 		double a = 1.1;
 		double b = 1; // 데이터 손실이 없음, 1앞에 아래처럼 (double)이라고 적어줄 필요 굳이 없음
