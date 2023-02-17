@@ -1,4 +1,4 @@
-public class typeandvariable{
+public class _1typeandvariable{
 	public static void main(String[] args) {
 		// 대표적인 타입 정수, 실수, 문자열
 		System.out.println(6+2);
