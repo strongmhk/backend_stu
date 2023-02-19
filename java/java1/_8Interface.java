@@ -25,7 +25,7 @@ class RealCal implements Calculable, Printable{ // interface의 가이드라인�
 
 
 
-public class _7Interface{
+public class _8Interface{
 	public static void main(String[] args) {
 		RealCal c = new RealCal();
 		c.print();
